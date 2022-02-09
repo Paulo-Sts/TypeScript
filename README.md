@@ -1,6 +1,6 @@
 <div style="display:inline_block">
-    <img align="left" height="100" width="200" alt="TypeScript" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg">
+    <img align="left" height="200" width="300" alt="TypeScript" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg">
 </div>
 
 # TypeScript
-Sintaxe e características da linguagem.
+Sintaxe e características da linguagem.  

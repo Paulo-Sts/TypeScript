@@ -7,19 +7,19 @@ Sintaxe e características da linguagem.
 
 <br>
 
-> #### Instalar TypeScript
+> #### INSTALAR TYPESCRIPT
 ~~~ 
 npm install -g typescript
 ~~~  
 
-> #### Inializar arquivo de configuração TypeScript
+> #### INICIALIZAR ARQUIVO DE CONFIGURAÇÃO TYPESCRIPT
 ~~~ 
 tsc --init
 ~~~  
 
-## INTRODUÇÃO
+## Introdução
 
-### Definição
+> #### DEFINIÇÃO
 * É um super conjunto da linguagem javascript criada pela microsoft que adiciona recursos como tipagens e interfaces. 
 * O Typescript possui todos os recursos do Javascript e incorpora funcionalidades próprias.
 * É uma linguagem compilada que ao ser executada é convertida em javascript e é interpretada pelo navegador.

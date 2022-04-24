@@ -23,6 +23,10 @@ class Visibilidade {
     public permissao(idade: number) {
         return this.validaIdade(idade)
     }
+
+    protected pensamento(){ //O protected é um outro modificador de acesso, esse tipo de modificador torna visível o método dentro da classe e transmitido por herança.
+        return "Meus pensamentos"
+    }
 }
 
 const teste1 = new Visibilidade("pessoa1", 24, "001.345.290-55")

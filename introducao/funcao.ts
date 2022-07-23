@@ -1,4 +1,3 @@
-
 // Definindo o tipo de retorno da função
 function nomeFuncao():string{
     let retorno = "Paulo"

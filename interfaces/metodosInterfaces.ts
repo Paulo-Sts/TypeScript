@@ -7,7 +7,7 @@ interface NovoCarro {
 }
 
 
-const carro1: NovoCarro = { //Podemos associar um objeto a interface, definindo que o objeto é do tipo da interface
+const carro1: NovoCarro = { // Podemos associar um objeto a interface, definindo que o objeto é do tipo da interface
     modelo: "Gol",
     cor: "Preto",
     buzina() {

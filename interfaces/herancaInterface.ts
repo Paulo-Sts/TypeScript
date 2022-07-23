@@ -6,7 +6,7 @@ interface N2 {
     funcao2(): void
 }
 
-interface N3 extends N1, N2{ //Uma interface pode herdar de outras interfaces
+interface N3 extends N1, N2{ // Uma interface pode herdar de outras interfaces
     funcao3(): void
 }
 

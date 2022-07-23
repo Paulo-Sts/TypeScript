@@ -1,5 +1,7 @@
 // Podemos definir namespaces em arquivos separados
+
 ///<reference path="multiplosNamespaces2.ts"/>
+
 namespace FormulasGeometricas {
     export namespace Area {
         const pi = 3.14

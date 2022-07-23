@@ -1,12 +1,12 @@
-//Sintaxe Classe
+// Sintaxe Classe
 
 class NomeClasse {
-    //atributos da classe
+    // atributos da classe
     atributo1: number
     atributo2: string
     atributo3: boolean
 
-    //construtor que inicializa a classe com seus atributos
+    // construtor que inicializa a classe com seus atributos
     constructor(atributo1: number, atributo2: string, atributo3: boolean) {
         this.atributo1 = atributo1
         this.atributo2 = atributo2
@@ -14,14 +14,14 @@ class NomeClasse {
     }
 }
 
-//Instância da classe
+// Instância da classe
 
 const novoObjeto = new NomeClasse(1, "objeto1", true)
 
-//Acessando atributos classe
+// Acessando atributos classe
 console.log(novoObjeto.atributo1)
 
-//Parâmetro padrão
+// Parâmetro padrão
 class SegundaClasse {
 
     primeiroAtributo: number
@@ -35,10 +35,10 @@ class SegundaClasse {
     }
 }
 
-//Instânciando com valores padrão
+// Instânciando com valores padrão
 const objetoPadrao = new SegundaClasse
 
-//Acessando atributos objeto
+// Acessando atributos objeto
 console.log(objetoPadrao.primeiroAtributo)
 console.log(objetoPadrao.segundoAtributo)
 console.log(objetoPadrao.terceiroAtributo)

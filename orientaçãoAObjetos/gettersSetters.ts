@@ -1,6 +1,6 @@
 class Animal {
 
-    private _raca: string = '' //o _ é uma convenção para definir atributos privados
+    private _raca: string = '' // O _ é uma convenção para definir atributos privados
 
     get raca() : string {
         return this._raca
@@ -13,6 +13,6 @@ class Animal {
 
 const animal1 = new Animal()
 
-animal1.raca = 'cachorro' //Os métodos get e set são acessados como atributos da classe
+animal1.raca = 'cachorro' // Os métodos get e set são acessados como atributos da classe
 
 console.log(animal1.raca)

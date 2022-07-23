@@ -4,7 +4,7 @@ abstract class Calculo {
 
     protected resultado: number = 0
 
-    abstract executar(...numeros: number[]): void //Em classes abstratas podemos definir métodos abstratos com o seu corpo, esses métodos são usados por suas classes filhas
+    abstract executar(...numeros: number[]): void // Em classes abstratas podemos definir métodos abstratos com o seu corpo, esses métodos são usados por suas classes filhas
 
     getResultado(): number {
         return this.resultado

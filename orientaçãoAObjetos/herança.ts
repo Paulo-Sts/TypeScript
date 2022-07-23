@@ -7,7 +7,7 @@ class Carro {
 
 class Mercedes extends Carro {
     constructor(modelo: string, cor: string, public velocidadeMaxima: number) {
-        super('Mercedes', modelo, cor) //Com o super é possível sobrescrever atributos herdados
+        super('Mercedes', modelo, cor) // Com o super é possível sobrescrever atributos herdados
     }
 }
 

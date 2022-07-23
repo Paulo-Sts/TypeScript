@@ -7,4 +7,5 @@ class ExemploClasse{
 
 function novoDecorator(classe: Function) {
     return console.log(classe)
-}*/
+}
+*/

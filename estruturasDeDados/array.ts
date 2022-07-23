@@ -6,7 +6,7 @@ let frutas = ["maçã", "banana", "laranja"]
 
 console.log(typeof(frutas))
 
-//Definindo explicitamente
+// Definindo explicitamente
 let numeros: number[] = [200, 45, 600]
 
 let verduras: string[] = ["Cebola", "Pimentão", "Coentro"]

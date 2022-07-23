@@ -1,11 +1,11 @@
-//Sintaxe métodos 
+// Sintaxe métodos 
 
 class Pessoa {
     constructor(public nome: string, public idade: number, public sexo: string) {
 
     }
 
-    public falar(nome:string) { //Assim como os atributos podemos adicionar a palavra reservada public também aos métodos
+    public falar(nome:string) { // Assim como os atributos podemos adicionar a palavra reservada public também aos métodos
         return `Oi meu nome é ${nome}`
     }
 
@@ -13,7 +13,7 @@ class Pessoa {
         return this.idade
     }
 
-    private rendaPessoa() { //Podemos definir métodos privados com a palavra reservada private
+    private rendaPessoa() { // Podemos definir métodos privados com a palavra reservada private
         return "3000"
     }
 }

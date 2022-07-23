@@ -1,10 +1,10 @@
-//Visibilidade atributos
+// Visibilidade atributos
 
 class Visibilidade {
 
-    public nome: string //Por padrão todos os atributos são públicos, mesmo sem usar a palavra reservada public
+    public nome: string // Por padrão todos os atributos são públicos, mesmo sem usar a palavra reservada public
     public idade: number
-    private cpf: string //O private torna o atributo privado, impedindo assim que seja acessado ou diretamente
+    private cpf: string // O private torna o atributo privado, impedindo assim que seja acessado diretamente
 
     constructor(nome:string, idade: number, cpf: string) {
         this.nome = nome
@@ -16,7 +16,7 @@ class Visibilidade {
         return this.nome
     }
 
-    private validaIdade(data:number) { //Métodos privados servem para serem usados dentro da própria classe
+    private validaIdade(data:number) { // Métodos privados servem para serem usados dentro da própria classe
         if(data > 18) return true
     }
 

@@ -1,4 +1,4 @@
-///<reference path="multiplosNamespaces1.ts"/>
+///<reference path="multiplos-namespaces1.ts"/>
 
 namespace FormulasGeometricas {
     export namespace Area {

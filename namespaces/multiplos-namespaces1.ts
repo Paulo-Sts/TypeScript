@@ -1,6 +1,6 @@
 // Podemos definir namespaces em arquivos separados
 
-///<reference path="multiplosNamespaces2.ts"/>
+///<reference path="multiplos-namespaces2.ts"/>
 
 namespace FormulasGeometricas {
     export namespace Area {
